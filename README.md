@@ -87,17 +87,32 @@ allprojects {
 ```
 Add it in your root build.gradle at the end of repositories:
 dependencyResolutionManagement {
+
 		repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
-		repositories {
-			mavenCentral()
-			maven { url 'https://jitpack.io' }
-		}
-	}
+
+  repositories {
+	
+   mavenCentral()
+	
+   maven { url 'https://jitpack.io' }
+	
+  }
+	
+ }
 And then in you app level build.gradle
 dependencies {
-	        implementation 'com.github.Hugsoft:Hugsoftlib:Tag'
-	}
+
+
+		        implementation 'com.github.Hugsoft.Hugsoftlib:core-ktx:1.1.1'
+	  	        implementation 'com.github.Hugsoft.Hugsoftlib:material2:1.1.1'
+	    	        implementation 'com.github.Hugsoft.Hugsoftlib:material3:1.1.1'
+	      	        implementation 'com.github.Hugsoft.Hugsoftlib:preferences:1.1.1'
+	
+ }
 ```
+
+
+
 [![](https://jitpack.io/v/Hugsoft/Hugsoftlib.svg)](https://jitpack.io/#Hugsoft/Hugsoftlib)
 ```
 
