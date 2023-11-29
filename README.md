@@ -98,5 +98,6 @@ dependencies {
 	        implementation 'com.github.Hugsoft:Hugsoftlib:Tag'
 	}
 ```
+[![](https://jitpack.io/v/Hugsoft/Hugsoftlib.svg)](https://jitpack.io/#Hugsoft/Hugsoftlib)
 ```
 
