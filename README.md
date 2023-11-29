@@ -89,18 +89,5 @@ allprojects {
 And then in you app level build.gradle
 
 ```
-dependencies { 
-  //Preferences and other widgets
-def version = 'v1.0.0-alpha05'
-implementation "com.github.prime-zs.toolkit:preferences:$version"
-}
 ```
-## Authors
-
-- [@ZakirSheikh](https://github.com/prime-zs)
-
-
-## License
-
-[MIT](https://choosealicense.com/licenses/mit/)
 
